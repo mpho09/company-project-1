@@ -1,6 +1,6 @@
 export default function RulerDivider({ inverted = false }) {
   return (
-    <div className={`w-full overflow-hidden ${inverted ? "bg-charcoal" : "bg-plaster"}`}>
+    <div className={`w-full overflow-hidden ${inverted ? "bg-charcoal" : "plaster"}`}>
       <svg viewBox="0 0 1200 40" preserveAspectRatio="none" className="w-full h-10">
         <line x1="0" y1="20" x2="1200" y2="20"
           stroke={inverted ? "#EFEAE0" : "#23262A"} strokeWidth="1.5" opacity="0.3" />

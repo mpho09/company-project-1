@@ -12,7 +12,7 @@ export default function WhyUs() {
         <h2 className="text-3xl md:text-4xl font-900 mb-12 max-w-xl">
           A small, highly skilled crew, hands-on since day one.
         </h2>
-        <div className="grid md:grid-cols-3 gap-px bg-plaster/10">
+        <div className="grid md:grid-cols-3 gap-px plaster/10">
           {pillars.map((p) => (
             <div key={p.title} className="bg-charcoal p-8">
               <h3 className="font-display text-xl mb-3 text-ochre">{p.title}</h3>

@@ -11,7 +11,7 @@ const links = [
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   return (
-    <header className="sticky top-0 z-50 bg-plaster/95 backdrop-blur border-b border-charcoal/10">
+    <header className="sticky top-0 z-50 plaster/95 backdrop-blur border-b border-charcoal/10">
       <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
         <a href="#home" className="font-display text-2xl font-900 tracking-tight">
           021<span className="text-ochre">PROJECTS</span>

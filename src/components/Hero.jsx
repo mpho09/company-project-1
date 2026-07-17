@@ -13,7 +13,7 @@ export default function Hero() {
           delivered by a small, highly skilled crew since 2013.
         </p>
         <div className="flex gap-4">
-          <a href="#contact" className="bg-ochre text-charcoal font-mono text-sm uppercase px-6 py-3 hover:bg-plaster transition-colors">
+          <a href="#contact" className="bg-ochre text-charcoal font-mono text-sm uppercase px-6 py-3 hover:plaster transition-colors">
             Request a Quote
           </a>
           <a href="#services" className="border border-plaster/30 font-mono text-sm uppercase px-6 py-3 hover:border-ochre hover:text-ochre transition-colors">

@@ -1,9 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
 
 body {
-  @apply bg-plaster text-charcoal font-body antialiased;
+  @apply plaster text-charcoal font-body antialiased;
 }
 
 h1, h2, h3 {
