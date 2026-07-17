@@ -1,39 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-/**
- * 021 PROJECTS — redesign, elegant pass
- * Cape Town building contractor: painting, waterproofing, ceilings,
- * partitions, flooring/tiling, brick laying. Est. 2013.
- *
- * Direction: quiet, considered, materials-led. A refined serif for
- * personality, restrained copper accent standing in for the trade's
- * own patina, generous whitespace, hairline rules instead of blocks.
- * Services still carry real work-order spec codes — that's genuine
- * to how scopes get labelled on site, not a decorative device.
- */
 
-const FONT_IMPORT = `
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@500&display=swap');
-
-.f-display { font-family: 'Fraunces', serif; font-optical-sizing: auto; }
-.f-body { font-family: 'Inter', sans-serif; }
-.f-mono { font-family: 'IBM Plex Mono', monospace; }
-
-@keyframes lineDraw {
-  0% { width: 0; }
-  100% { width: 100%; }
-}
-@keyframes fadeUp {
-  0% { opacity: 0; transform: translateY(16px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-.line-draw {
-  animation: lineDraw 1.4s cubic-bezier(.65,0,.35,1) 0.3s both;
-}
-.fade-up {
-  animation: fadeUp 0.9s cubic-bezier(.16,1,.3,1) both;
-}
-`;
 
 const SERVICES = [
   {
@@ -102,13 +69,7 @@ const SERVICES = [
   },
 ];
 
-/**
- * ImageSlot — drop-in spot for a real project photo.
- * Give it `src` (e.g. "/images/services/painting.jpg") and it will
- * show the photo once one exists at that path. Until then it shows
- * a quiet placeholder with the expected path, so it's obvious where
- * to add photography later — nothing to rewire.
- */
+
 function ImageSlot({ src, alt, pattern, className = "", label }) {
   const [failed, setFailed] = useState(false);
 
@@ -206,9 +167,7 @@ export default function App() {
 
   return (
     <div className="f-body bg-stone-50 text-stone-900 min-h-screen antialiased">
-      <style>{FONT_IMPORT}</style>
-
-      {/* NAV */}
+      
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
           scrolled
