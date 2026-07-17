@@ -1,11 +1,14 @@
-@import "tailwindcss";
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
-  @apply plaster text-charcoal font-body antialiased;
+  @apply bg-plaster text-charcoal font-body antialiased;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   @apply font-display uppercase tracking-tight;
 }
 
