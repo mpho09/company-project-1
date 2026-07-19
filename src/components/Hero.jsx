@@ -30,7 +30,7 @@ export default function Hero() {
               <dt className="text-slate">Founded</dt><dd className="font-medium">2013</dd>
             </div>
             <div className="flex justify-between border-b border-charcoal/10 pb-2">
-              <dt className="text-slate">Based</dt><dd className="font-medium">Cape Town &amp; Johannesburg</dd>
+              <dt className="text-slate">Based</dt><dd className="font-medium">Thulani.Roodeport &amp; Johannesburg</dd>
             </div>
             <div className="flex justify-between border-b border-charcoal/10 pb-2">
               <dt className="text-slate">Focus</dt><dd className="font-medium">Property renovation &amp; finishing</dd>
