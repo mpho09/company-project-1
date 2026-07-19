@@ -72,6 +72,6 @@ The site will be available at `http://localhost:5173` by default.
 - Consider adding a dedicated Services or Gallery detail page as the project grows.
 
 ## Live Deployed URL
-https://mpho09.github.io/company-project-1/
+https://021companyproject.netlify.app/
 
 
