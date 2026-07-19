@@ -1,17 +1,74 @@
-# React + Vite
+# 021 Projects — Website Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern redesign of the [021 Projects](https://021projects.co.za/) website — a Cape Town & Johannesburg-based construction and renovation company specialising in painting, waterproofing, ceilings, partitions, flooring, tiling and brick laying.
 
-Currently, two official plugins are available:
+Built with **React**, **Vite** and **Tailwind CSS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## Tech stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- PostCSS + Autoprefixer
 
-## Expanding the ESLint configuration
+## Project structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# company-project-1
+```
+COMPANY-PROJECT-1/
+├── public/
+├── src/
+│   ├── assets/              # project photos, images
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── RulerDivider.jsx
+│   │   ├── WhyUs.jsx
+│   │   ├── Services.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.js
+└── package.json
+```
+
+## Getting started
+
+Clone the repository and install dependencies:
+
+```bash
+npm install
+```
+
+Start the local development server:
+
+```bash
+npm run dev
+```
+
+The site will be available at `http://localhost:5173` by default.
+
+
+
+## Content sections
+
+| Section    | Purpose                                                              |
+|------------|-----------------------------------------------------------------------|
+| Hero       | Company positioning and key facts (founded, location, focus)         |
+| Why Us     | Responsive, Quality, and Support — the company's core commitments     |
+| Services   | Painting, waterproofing, ceilings, partitions, flooring, tiling, brick laying |
+| Our Work   | Photo gallery of completed site work, plus accredited applicator list |
+| Contact    | Office address, phone, email, and a contact form                     |
+
+## Notes for future work
+
+- Wire up the contact form to an email service or backend endpoint (it currently has no submit handler).
+- Consider adding a dedicated Services or Gallery detail page as the project grows.
+
+
