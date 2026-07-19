@@ -71,4 +71,7 @@ The site will be available at `http://localhost:5173` by default.
 - Wire up the contact form to an email service or backend endpoint (it currently has no submit handler).
 - Consider adding a dedicated Services or Gallery detail page as the project grows.
 
+## Live Deployed URL
+https://mpho09.github.io/company-project-1/
+
 
